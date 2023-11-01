@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <mseta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Traveloka - Temukan Dunia</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">Traveloka</div>
+            <ul>
+                <li><a href="#">Penerbangan</a></li>
+                <li><a href="#">Hotel</a></li>
+                <li><a href="#">Aktivitas</a></li>
+                <li><a href="#">Promo</a></li>
+                <li><a href="D:\WEB TRAVEL\login.html">Login</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <h1>Temukan Dunia bersama Traveloka</h1>
+            <p>Cari penerbangan, hotel, dan aktivitas terbaik untuk petualangan selanjutnya.</p>
+            <a href="#" class="cta-button">Jelajahi Sekarang</a>
+        </section>
+
+        <section class="featured">
+            <h2>Destinasi Terpopuler</h2>
+            <div class="destination-card">
+                <img src="c:\Users\Dell\Pictures\farm-house.jpg" alt="Paris">
+                <h3>farm-house, Indonesia</h3>
+                <p>Menikmati kota cinta.</p>
+                <a href="#">Jelajahi</a>
+            </div>
+            <div class="destination-card">
+                <img src="c:\Users\Dell\Pictures\history.jpg" alt="Bali">
+                <h3>Bandung, Indonesia</h3>
+                <p>Paradise island.</p>
+                <a href="#">Jelajahi</a>
+            </div>
+            <!-- Tambahkan lebih banyak kartu destinasi di sini -->
+        </section>
+
+        <section class="booking">
+            <h2>Pesan Destinasi Anda</h2>
+            <form action="proses_pemesanan.php" method="post">
+                <label for="departure">Kota Asal:</label>
+                <input type="text" id="departure" name="departure" required>
+                <label for="destination">Kota Tujuan:</label>
+                <input type="text" id="destination" name="destination" required>
+                <label for="departure-date">Tanggal Keberangkatan:</label>
+                <input type="date" id="departure-date" name="departure-date" required>
+                <button type="submit">Pesan Sekarang</button>
+            </form>
+        </section>
+    </main>
+</body>
+</html>
